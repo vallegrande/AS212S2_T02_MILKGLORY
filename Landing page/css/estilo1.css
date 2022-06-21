@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    background: #cfcfcf;
+}
+.logo{
+    text-align: center;
+    font-size: 60px;
+}
+.menu>ul>li{
+    list-style: none;
+    float: left;
+}
+.menu>ul>li>a{
+    color:#15073e;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 14px;
+    font-size:19px;
+}
+.rojo{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.espacio{
+    padding: 20px 0;
+}
+.azul{
+    background: #15073e;
+    padding: 60px 0;
+}
+.parrafo2{
+    color:#fff;
+}
+.pedido{
+    background: red;
+    color: #fff;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    width: 100px;
+}
+.menu2{
+    overflow: hidden;
+}
+.menu2 li{
+    float: left;
+    list-style: none;
+}
+.menu2 li a{
+    color: red;
+    text-decoration: none;
+    padding: 4px 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+}
+.azul2{
+    background: #15073e;
+    padding: 40px 0;
+}
+
+
