@@ -1,0 +1,279 @@
+body {
+    font-family: sans-serif;
+    background: #cfcfcf;
+}
+
+.logo {
+    text-align: center;
+    font-size: 60px;
+}
+
+.menu>ul>li {
+    list-style: none;
+    float: left;
+}
+
+.menu>ul>li>a {
+    color: #15073e;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 14px;
+    font-size: 19px;
+}
+
+.rojo {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.espacio {
+    padding: 20px 0;
+}
+
+.azul {
+    background: #15073e;
+    padding: 60px 0;
+}
+
+.parrafo2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.pedido {
+    background: red;
+    color: #fff;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100px;
+}
+
+.NOSOTROS {
+    background: red;
+    color: #fff;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100px;
+}
+
+.menu2 {
+    overflow: hidden;
+}
+
+.menu2 li {
+    float: left;
+    list-style: none;
+}
+
+.menu2 li a {
+    color: red;
+    text-decoration: none;
+    padding: 4px 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.azul2 {
+    background: #15073e;
+    padding: 40px 0;
+}
+
+.parrafo {
+    color: rgb(92, 91, 91);
+    font-size: 15px;
+}
+
+.cta {
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #fc430a8e 0%, #f0a28c 99%, #f7a994 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: hsl(189, 19%, 93%);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.member {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.member-name {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #007765;
+}
+
+.member-role {
+    font-style: italic;
+    font-size: 18px;
+}
+
+h1 {
+    color: #007765;
+    font-weight: 500;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+/* sobre nosotros  */
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+
+}
+
+.about .row .image {
+    flex: 1 1 45rem;
+}
+
+.about .row .image img {
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+
+}
+
+.about .row .content h2 {
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    color: rgb(129, 129, 129);
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+.products .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+}
+
+.products .box-container .box {
+    border-radius: .5rem;
+    text-align: center;
+    border: 0.2rem solid #333;
+}
+
+.products .box-container .box:hover .image .icons {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.products .box-container .box .image {
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    height: 25rem;
+    width: 100%;
+}
+
+.products .box-container .box .image .icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 0.2rem solid #333;
+    -webkit-transform: translateY(-7rem);
+    transform: translateY(-7rem);
+}
+
+.products .box-container .box .image .icons a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.products .box-container .box .image .icons a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.products .box-container .box .image img {
+    height:220px;
+    width: 150px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: center;
+}
+
+.products .box-container .box .content {
+    padding: 1.5rem 0;
+}
+
+.products .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.products .box-container .box .content .stars {
+    padding: 1rem 0;
+}
+
+.products .box-container .box .content .stars i {
+    font-size: 1.4rem;
+    color: #e84393;
+}
+
+.products .box-container .box .content .price {
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.products .box-container .box .content .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: #666;
+}
