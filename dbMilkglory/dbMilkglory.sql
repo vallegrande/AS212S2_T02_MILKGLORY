@@ -42,7 +42,7 @@ CREATE TABLE CLIENTE
     APECLI varchar(80),
     CELCLI char(9),
     EMACLI varchar(50),
-	FECNACCLI date,
+    FECNACCLI date,
     UBICLI char(6),
     CONSTRAINT CODCLI_PK PRIMARY KEY (CODCLI)
 );
